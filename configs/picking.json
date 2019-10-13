@@ -1,3 +1,47 @@
 {
-
+  "resilientPickingEnabled": true,
+  "preLabelEnabled": true,
+  "qa-int": {
+    "us": {
+      "r1": {
+        "capability": "https://qa-us-r1-picking.com"
+      },
+      "r2": {
+        "capability": "https://qa-us-r2-picking.com",
+        "1": {
+          "5594": {
+            "resilientPickingEnabled": false
+          }
+        }
+      }
+    },
+    "uk": {
+      "capability": "https://qa-uk-picking.com"
+    },
+    "mx": {
+      "capability": "https://qa-mx-picking.com"
+    },
+    "ca": {
+      "capability": "https://qa-ca-picking.com"
+    }
+  },
+  "prod": {
+    "us": {
+      "r1": {
+        "capability": "https://prod-us-r1-picking.com"
+      },
+      "r2": {
+        "capability": "https://prod-us-r2-picking.com"
+      }
+    },
+    "uk": {
+      "capability": "https://prod-uk-picking.com"
+    },
+    "mx": {
+      "capability": "https://prod-mx-picking.com"
+    },
+    "ca": {
+      "capability": "https://prod-ca-picking.com"
+    }
+  }
 }

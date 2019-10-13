@@ -1,3 +1,47 @@
 {
-
+  "serialNumberEnabled": true,
+  "labelsEnabled": true,
+  "qa-int": {
+    "us": {
+      "r1": {
+        "capability": "https://qa-us-r1-packing.com"
+      },
+      "r2": {
+        "capability": "https://qa-us-r2-packing.com",
+        "1": {
+          "5594": {
+            "serialNumberEnabled": false
+          }
+        }
+      }
+    },
+    "uk": {
+      "capability": "https://qa-uk-packing.com"
+    },
+    "mx": {
+      "capability": "https://qa-mx-packing.com"
+    },
+    "ca": {
+      "capability": "https://qa-ca-packing.com"
+    }
+  },
+  "prod": {
+    "us": {
+      "r1": {
+        "capability": "https://prod-us-r1-packing.com"
+      },
+      "r2": {
+        "capability": "https://prod-us-r2-packing.com"
+      }
+    },
+    "uk": {
+      "capability": "https://prod-uk-packing.com"
+    },
+    "mx": {
+      "capability": "https://prod-mx-packing.com"
+    },
+    "ca": {
+      "capability": "https://prod-ca-packing.com"
+    }
+  }
 }
