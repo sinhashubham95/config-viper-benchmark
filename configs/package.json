@@ -1,0 +1,33 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "heirarchy": [
+    {
+      "name": "environment",
+      "regex": "\\b(?:qa-int|prod|dev|e2e|pqa)\\b"
+    },
+    {
+      "name": "country",
+      "regex": "\\b(?:us|uk|mx|ca)\\b"
+    },
+    {
+      "name": "ring",
+      "regex": "\\b(?:r1|r2)\\b"
+    },
+    {
+      "name": "division",
+      "dynamic": true,
+      "regex": "\\b(?:1|18)\\b"
+    },
+    {
+      "name": "store",
+      "dynamic": true,
+      "regex": "\\d{1,6}"
+    }
+  ],
+  "properties": [
+    "picking",
+    "packing",
+    "core"
+  ]
+}
